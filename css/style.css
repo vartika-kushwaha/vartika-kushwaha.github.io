@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.animated-text {
+  animation: fadeInDown 1.5s ease-in-out;
+}
+
+@keyframes fadeInDown {
+  0% {opacity: 0; transform: translateY(-50px);}
+  100% {opacity: 1; transform: translateY(0);}
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+.hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+footer {
+  margin-top: auto;
+}
